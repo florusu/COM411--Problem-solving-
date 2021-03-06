@@ -1,20 +1,9 @@
-print("what is your name?")
-n = input()
-print("do you have a dog ?(types true or false)")
-dog = bool(input())
-#bool is boolean datatype only stores true or false 
+print("how many times to print the symbol ?")
+x=int(input())
+#i is a counter it keeps track of how many times we went through the Loop
+i =0
 
-if len(n)>9:
-  # and/or 
-  print("you have a very loooong name!")
-  print("your name contains {}letters".format(len(n)))
-elif len(n) > 6:
-  print("your name is a bit long , consider a nickname")
-
-elif len(n)<3:
-  print("your name is very short")
-else:
-  print("your name is quite ok")
-
-
-print("this is the end of the program ")
+while i < x: #condition for repeating the code as i lower than x
+  print("\u27BD")
+  i=i+1 #new value of the counter is one more than it used to be 
+  print("we left the loop")
